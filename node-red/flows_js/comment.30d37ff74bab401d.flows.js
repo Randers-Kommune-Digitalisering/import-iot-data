@@ -5,7 +5,7 @@ const Node = {
   "name": "Flyt og split per dataelement i listen",
   "info": "",
   "x": 280,
-  "y": 240,
+  "y": 340,
   "wires": []
 }
 

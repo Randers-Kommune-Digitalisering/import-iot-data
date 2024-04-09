@@ -5,7 +5,7 @@ const Node = {
   "name": "Kontroller metadata",
   "info": "",
   "x": 330,
-  "y": 420,
+  "y": 520,
   "wires": []
 }
 

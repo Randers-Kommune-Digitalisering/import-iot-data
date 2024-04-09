@@ -1,11 +1,12 @@
 const Node = {
-  "id": "1c1d1cb29dc6e19e",
+  "id": "463a093b401ccd0b",
   "type": "comment",
   "z": "7d89c5933c6ac70c",
-  "name": "Dekodning hvis ekstern dekoder er defineret",
+  "g": "39a84f62ba24489c",
+  "name": "Sæt tabelnavne",
   "info": "",
-  "x": 310,
-  "y": 1160,
+  "x": 130,
+  "y": 60,
   "wires": []
 }
 

@@ -1,18 +1,19 @@
 const Node = {
-  "id": "d1e08f70c9b8ec7d",
+  "id": "b90841aad1d610a5",
   "type": "debug",
   "z": "7d89c5933c6ac70c",
-  "name": "stdout",
+  "g": "39a84f62ba24489c",
+  "name": "Table names set",
   "active": true,
-  "tosidebar": true,
-  "console": true,
+  "tosidebar": false,
+  "console": false,
   "tostatus": false,
-  "complete": "{\t    data.deviceEui: \"no data inserted\"\t}",
+  "complete": "$globalContext(\"metadataTablename\")",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 540,
-  "y": 700,
+  "x": 550,
+  "y": 60,
   "wires": []
 }
 

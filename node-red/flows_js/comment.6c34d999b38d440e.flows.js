@@ -6,7 +6,7 @@ const Node = {
   "name": "Create prometheus metric",
   "info": "",
   "x": 970,
-  "y": 1100,
+  "y": 1200,
   "wires": []
 }
 

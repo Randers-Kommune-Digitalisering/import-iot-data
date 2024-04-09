@@ -17,7 +17,7 @@ const Node = {
   "payload": "{\"id\":\"cf19-Adeunis\",\"name\":\"Gas måler Grønhøjskolen\",\"observedAt\":\"2024-02-25T09:55:26.180Z\",\"decoder\":\"adeunis\",\"productType\":\"pulse\",\"data\":\"46c4000036600000000c14d154ae\"}",
   "payloadType": "json",
   "x": 210,
-  "y": 120,
+  "y": 220,
   "wires": [
     [
       "b47538a01b50dcca"

@@ -1,7 +1,7 @@
 const Node = {
   "id": "6b9a4e582b1e4da4",
   "type": "change",
-  "z": "7d89c5933c6ac70c",
+  "z": "7b3a886e00fb2ea6",
   "g": "39a84f62ba24489c",
   "name": "Table names",
   "rules": [
@@ -60,12 +60,10 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 380,
+  "x": 370,
   "y": 60,
   "wires": [
-    [
-      "b90841aad1d610a5"
-    ]
+    []
   ]
 }
 

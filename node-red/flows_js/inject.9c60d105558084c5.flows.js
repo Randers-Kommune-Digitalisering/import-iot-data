@@ -5,8 +5,8 @@ const Node = {
   "name": "",
   "props": [
     {
-      "p": "testdeveui",
-      "v": "1234567890987654",
+      "p": "devEui",
+      "v": "102ceffffe010f6d",
       "vt": "str"
     }
   ],
@@ -19,7 +19,7 @@ const Node = {
   "y": 340,
   "wires": [
     [
-      "a9e8f3d58b75576d"
+      "ae2da6860950f9fe"
     ]
   ],
   "l": false

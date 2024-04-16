@@ -4,8 +4,8 @@ const Node = {
   "z": "eef226cd62dde078",
   "name": "Drop tables",
   "info": "",
-  "x": 350,
-  "y": 320,
+  "x": 370,
+  "y": 220,
   "wires": []
 }
 

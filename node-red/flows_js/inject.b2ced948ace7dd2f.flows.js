@@ -13,7 +13,9 @@ const Node = {
   "x": 255,
   "y": 60,
   "wires": [
-    []
+    [
+      "6b9a4e582b1e4da4"
+    ]
   ],
   "l": false
 }

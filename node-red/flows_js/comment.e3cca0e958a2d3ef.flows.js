@@ -4,7 +4,7 @@ const Node = {
   "z": "7d89c5933c6ac70c",
   "name": "Opdater metadata",
   "info": "",
-  "x": 230,
+  "x": 410,
   "y": 1540,
   "wires": []
 }

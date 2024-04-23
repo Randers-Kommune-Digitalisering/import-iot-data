@@ -3,7 +3,7 @@ const Node = {
   "type": "switch",
   "z": "7d89c5933c6ac70c",
   "name": "Findes en \\n observation?",
-  "property": "payload[0].lastObservation = \"0000-00-00 00:00:00\"",
+  "property": "payload[0].lastObservation = null or payload[0].lastObservation = \"0000-00-00 00:00:00\"",
   "propertyType": "jsonata",
   "rules": [
     {

@@ -5,8 +5,8 @@ const Node = {
   "g": "39a84f62ba24489c",
   "name": "Sæt tabelnavne",
   "info": "",
-  "x": 130,
-  "y": 60,
+  "x": 150,
+  "y": 80,
   "wires": []
 }
 

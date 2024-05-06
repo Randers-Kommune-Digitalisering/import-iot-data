@@ -20,10 +20,14 @@ const Node = {
 
 Node.template = `
 SELECT
-    lastObservation
-FROM {{global.metadataTablename.maaler}}
-WHERE deviceEui = '{{data.deviceEui}}'
-ORDER BY lastObservation DESC LIMIT 1
+    lastObservation,
+    dataTablename
+FROM
+    {{global.metadataTablename.maaler}}
+WHERE
+    deviceEui = '{{data.deviceEui}}'
+ORDER BY
+    lastObservation DESC LIMIT 1
 `
 
 module.exports = Node;

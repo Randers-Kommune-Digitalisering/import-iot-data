@@ -19,9 +19,12 @@ const Node = {
 }
 
 Node.template = `
-UPDATE {{global.metadataTablename.maaler}} SET 
+UPDATE
+    {{global.metadataTablename.maaler}}
+SET 
     dateFirstUsed = CURRENT_TIMESTAMP
-WHERE deviceEui = '{{data.deviceEui}}'
+WHERE
+    deviceEui = '{{data.deviceEui}}'
 `
 
 module.exports = Node;

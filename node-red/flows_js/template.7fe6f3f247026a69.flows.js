@@ -20,9 +20,9 @@ const Node = {
 
 Node.template = `
 INSERT INTO {{data.tablename}}
-(observedAt, type, value)
+    (observedAt, type, value)
 VALUES
-{{{sqlvalues}}}
+    {{{sqlvalues}}}
 `
 
 module.exports = Node;

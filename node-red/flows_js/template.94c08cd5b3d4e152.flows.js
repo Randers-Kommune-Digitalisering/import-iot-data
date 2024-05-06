@@ -9,7 +9,7 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 450,
+  "x": 730,
   "y": 1600,
   "wires": [
     [
@@ -19,12 +19,15 @@ const Node = {
 }
 
 Node.template = `
-UPDATE {{global.metadataTablename.maaler}} SET
+UPDATE
+    {{global.metadataTablename.maaler}}
+SET
     lastObservation = '{{data.observedAt}}',
     dataTablename = '{{data.tablename}}',
     rssi = {{data.rssi}},
     batteryLevel = {{data.batteryLevel}}
-WHERE deviceEui = '{{data.deviceEui}}'
+WHERE
+    deviceEui = '{{data.deviceEui}}'
 `
 
 module.exports = Node;

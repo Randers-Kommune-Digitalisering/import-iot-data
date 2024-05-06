@@ -6,7 +6,7 @@ const Node = {
   "rules": [
     {
       "t": "set",
-      "p": "device.batteryLevel",
+      "p": "data.batteryLevel",
       "pt": "msg",
       "to": "device.batteryLevel ~> $type = 'number' ? \tdevice.batteryLevel : -1",
       "tot": "jsonata"
@@ -17,7 +17,7 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 420,
+  "x": 410,
   "y": 1600,
   "wires": [
     [

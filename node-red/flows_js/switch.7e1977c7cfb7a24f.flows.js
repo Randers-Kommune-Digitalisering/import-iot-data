@@ -7,10 +7,10 @@ const Node = {
   "propertyType": "jsonata",
   "rules": [
     {
-      "t": "true"
+      "t": "false"
     },
     {
-      "t": "false"
+      "t": "true"
     }
   ],
   "checkall": "true",

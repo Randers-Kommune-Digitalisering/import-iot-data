@@ -3,7 +3,7 @@ const Node = {
   "type": "switch",
   "z": "7d89c5933c6ac70c",
   "name": "Kontrollér om modtaget data \\n er nyere end gemt data",
-  "property": "payload[0].lastObservation ~> $toMillis()",
+  "property": "metadata.lastObservation ~> $toMillis()",
   "propertyType": "jsonata",
   "rules": [
     {
@@ -18,8 +18,8 @@ const Node = {
   "checkall": "true",
   "repair": false,
   "outputs": 2,
-  "x": 600,
-  "y": 1020,
+  "x": 640,
+  "y": 1180,
   "wires": [
     [
       "cfe32cbb97677573"

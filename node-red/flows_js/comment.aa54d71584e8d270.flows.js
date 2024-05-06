@@ -4,8 +4,8 @@ const Node = {
   "z": "7d89c5933c6ac70c",
   "name": "Observation findes af måler",
   "info": "",
-  "x": 600,
-  "y": 960,
+  "x": 640,
+  "y": 1120,
   "wires": []
 }
 

@@ -9,8 +9,8 @@ const Node = {
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 610,
-  "y": 820,
+  "x": 650,
+  "y": 980,
   "wires": [
     [
       "d39a8f957eb52656"
@@ -19,7 +19,8 @@ const Node = {
 }
 
 Node.template = `
-CREATE TABLE if not exists {{data.tablename}} (
+CREATE TABLE if not exists {{data.tablename}}
+(
 	observedAt TIMESTAMP NOT NULL,
 	type VARCHAR(255),
 	value FLOAT SIGNED,

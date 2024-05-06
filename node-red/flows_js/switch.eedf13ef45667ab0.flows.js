@@ -3,7 +3,7 @@ const Node = {
   "type": "switch",
   "z": "7d89c5933c6ac70c",
   "name": "Findes måler?",
-  "property": "payload ~> $count() > 0",
+  "property": "metadata != null and (metadata ~> $exists())",
   "propertyType": "jsonata",
   "rules": [
     {
@@ -23,7 +23,7 @@ const Node = {
       "d1e08f70c9b8ec7d"
     ],
     [
-      "7e1977c7cfb7a24f"
+      "1a33bcf0c8ae419c"
     ]
   ]
 }

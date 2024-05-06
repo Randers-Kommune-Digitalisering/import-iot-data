@@ -5,7 +5,7 @@ const Node = {
   "name": "Opdater metadata",
   "info": "",
   "x": 230,
-  "y": 1560,
+  "y": 1720,
   "wires": []
 }
 

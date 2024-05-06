@@ -7,11 +7,11 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "payload ~> $count() > 0 ?\t{\t    data.deviceEui: \"device is registered\",\t    \"lastObservation\": payload[0].lastObservation = \"0000-00-00 00:00:00\" ?\t                        \"no observation\" : payload[0].lastObservation,\t    \"tablename\": payload[0].dataTablename\t}\t:\tdata.deviceEui ~> $exists() ?\t    {\t        data.deviceEui: \"device is NOT registered\"\t    }\t    :\t    {\t        \"unknown-device\": \"no deviceEui provided\"\t    }",
+  "complete": "metadata != null and (metadata ~> $exists()) ?\t{\t    data.deviceEui: \"device is registered\",\t    \"lastObservation\": metadata.lastObservation = \"0000-00-00 00:00:00\" ?\t                        \"no observation\" : payload[0].lastObservation,\t    \"tablename\": metadata.dataTablename\t}\t:\tdata.deviceEui ~> $exists() ?\t    {\t        data.deviceEui: \"device is NOT registered\"\t    }\t    :\t    {\t        \"unknown-device\": \"no deviceEui provided\"\t    }",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 860,
+  "x": 1040,
   "y": 580,
   "wires": []
 }

@@ -1,14 +1,14 @@
 const Node = {
-  "id": "38afcc1229ffc351",
+  "id": "d3ccfaa7fea7649e",
   "type": "change",
   "z": "7d89c5933c6ac70c",
   "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "data.batteryLevel",
+      "p": "metadata",
       "pt": "msg",
-      "to": "device.batteryLevel ~> $type = 'number' ? \tdevice.batteryLevel : -1",
+      "to": "payload[0]",
       "tot": "jsonata"
     }
   ],
@@ -17,11 +17,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 410,
-  "y": 1760,
+  "x": 810,
+  "y": 580,
   "wires": [
     [
-      "94c08cd5b3d4e152"
+      "a3509919e1dd100d",
+      "8623dd2211386e01"
     ]
   ]
 }

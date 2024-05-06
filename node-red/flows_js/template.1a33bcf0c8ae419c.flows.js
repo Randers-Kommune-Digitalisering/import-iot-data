@@ -1,28 +1,30 @@
 const Node = {
-  "id": "7fe6f3f247026a69",
+  "id": "1a33bcf0c8ae419c",
   "type": "template",
   "z": "7d89c5933c6ac70c",
-  "name": "Forespørgsel ↓\\n Indsæt ny data",
+  "name": "Forespørgsel ↓\\n Tjek om data eksisterer",
   "field": "sql",
   "fieldType": "msg",
   "format": "sql",
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 440,
-  "y": 1560,
+  "x": 590,
+  "y": 760,
   "wires": [
     [
-      "4a1542b920c093b9"
+      "c8b0f8f8c8eeedfa"
     ]
   ]
 }
 
 Node.template = `
-INSERT INTO {{data.tablename}}
-    (observedAt, type, value)
-VALUES
-    {{{sqlvalues}}}
+SELECT
+    COUNT(*) as count
+FROM
+    INFORMATION_SCHEMA.TABLES 
+WHERE
+    TABLE_NAME = '{{payload.dataTablename}}'
 `
 
 module.exports = Node;

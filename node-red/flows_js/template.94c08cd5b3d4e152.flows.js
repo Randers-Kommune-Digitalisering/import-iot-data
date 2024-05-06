@@ -2,15 +2,15 @@ const Node = {
   "id": "94c08cd5b3d4e152",
   "type": "template",
   "z": "7d89c5933c6ac70c",
-  "name": "Forespørgsel ↓\\n Opdater device metadata tabel",
+  "name": "Forespørgsel ↓\\n Opdater device metadata",
   "field": "sql",
   "fieldType": "msg",
   "format": "sql",
   "syntax": "mustache",
   "template": "",
   "output": "str",
-  "x": 710,
-  "y": 1600,
+  "x": 690,
+  "y": 1760,
   "wires": [
     [
       "8acdb2123b63ed5e"

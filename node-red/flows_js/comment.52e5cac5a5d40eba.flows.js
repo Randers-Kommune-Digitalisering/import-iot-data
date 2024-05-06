@@ -5,7 +5,7 @@ const Node = {
   "name": "Indsæt ny devicedata",
   "info": "",
   "x": 240,
-  "y": 1340,
+  "y": 1500,
   "wires": []
 }
 

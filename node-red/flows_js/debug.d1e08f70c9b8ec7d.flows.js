@@ -7,7 +7,7 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t    data.deviceEui: \"no data inserted\"\t}",
+  "complete": "data.deviceEui ~> $exists() ?\t{\t    data.deviceEui: \"no data inserted\"\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",

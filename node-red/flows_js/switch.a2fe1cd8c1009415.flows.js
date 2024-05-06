@@ -8,7 +8,7 @@ const Node = {
   "rules": [
     {
       "t": "gte",
-      "v": "\t\t(data.observedAt ~> $split(\".\"))[0] ~> $toMillis",
+      "v": "(data.observedAt ~> $split(\".\"))[0] ~> $toMillis",
       "vt": "jsonata"
     },
     {

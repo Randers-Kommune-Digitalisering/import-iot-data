@@ -3,12 +3,17 @@ const Node = {
   "type": "switch",
   "z": "f93fc1e5c4176e6a",
   "name": "",
-  "property": "productType",
+  "property": "unit",
   "propertyType": "msg",
   "rules": [
     {
       "t": "eq",
-      "v": "pulse",
+      "v": "m3",
+      "vt": "str"
+    },
+    {
+      "t": "eq",
+      "v": "L",
       "vt": "str"
     },
     {
@@ -17,12 +22,15 @@ const Node = {
   ],
   "checkall": "true",
   "repair": false,
-  "outputs": 2,
+  "outputs": 3,
   "x": 390,
-  "y": 160,
+  "y": 180,
   "wires": [
     [
       "603b599ad5e95714"
+    ],
+    [
+      "8384db191bf875a1"
     ],
     [
       "8bfbbd8a03d0531e"

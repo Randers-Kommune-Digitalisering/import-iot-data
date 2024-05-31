@@ -2,7 +2,7 @@ const Node = {
   "id": "603b599ad5e95714",
   "type": "change",
   "z": "f93fc1e5c4176e6a",
-  "name": "Divide values for m2 conversion",
+  "name": "Divide values for m3 conversion",
   "rules": [
     {
       "t": "set",

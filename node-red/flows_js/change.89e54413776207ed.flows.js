@@ -19,13 +19,6 @@ const Node = {
       "to": "data.productType",
       "tot": "msg",
       "dc": true
-    },
-    {
-      "t": "set",
-      "p": "unit",
-      "pt": "msg",
-      "to": "data.unit",
-      "tot": "msg"
     }
   ],
   "action": "",

@@ -3,7 +3,7 @@ const Node = {
   "type": "switch",
   "z": "7d89c5933c6ac70c",
   "name": "Har values?",
-  "property": "data.value",
+  "property": "data.values",
   "propertyType": "msg",
   "rules": [
     {

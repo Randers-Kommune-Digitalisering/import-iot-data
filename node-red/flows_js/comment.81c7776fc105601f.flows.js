@@ -5,7 +5,7 @@ const Node = {
   "name": "Ingen datatræk /observation af måler",
   "info": "",
   "x": 660,
-  "y": 920,
+  "y": 700,
   "wires": []
 }
 

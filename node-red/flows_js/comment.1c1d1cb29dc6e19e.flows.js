@@ -5,7 +5,7 @@ const Node = {
   "name": "Dekodning hvis ekstern dekoder er defineret",
   "info": "",
   "x": 310,
-  "y": 1320,
+  "y": 940,
   "wires": []
 }
 

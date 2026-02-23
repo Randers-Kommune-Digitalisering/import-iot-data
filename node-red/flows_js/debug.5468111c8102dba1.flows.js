@@ -5,13 +5,13 @@ const Node = {
   "name": "new request",
   "active": true,
   "tosidebar": true,
-  "console": true,
+  "console": false,
   "tostatus": false,
   "complete": "payload",
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 420,
+  "x": 410,
   "y": 240,
   "wires": []
 }

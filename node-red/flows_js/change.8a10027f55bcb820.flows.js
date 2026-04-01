@@ -1,15 +1,14 @@
 const Node = {
-  "id": "e0d41eb0bcfb6c58",
+  "id": "8a10027f55bcb820",
   "type": "change",
   "z": "7d89c5933c6ac70c",
-  "g": "a6ff98b819d2453d",
-  "name": "Metric (Time)",
+  "name": "",
   "rules": [
     {
       "t": "set",
-      "p": "payload",
+      "p": "data.values",
       "pt": "msg",
-      "to": "{\t    \"op\": \"set\",\t    \"val\": $millis(),\t    \"labels\": {\t        \"device\": data.id\t    }\t}",
+      "to": "data.values @ $value . (\t    \"value\" in ($value ~> $keys()) ?\t    $value\t)",
       "tot": "jsonata"
     }
   ],
@@ -18,11 +17,11 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 950,
-  "y": 1300,
+  "x": 720,
+  "y": 1000,
   "wires": [
     [
-      "75e2baba734d0c8e"
+      "b4fd60643915511f"
     ]
   ]
 }

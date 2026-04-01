@@ -5,8 +5,8 @@ const Node = {
   "g": "a6ff98b819d2453d",
   "name": "service status",
   "metric": "7a80158bbfee95fe",
-  "x": 1120,
-  "y": 1100,
+  "x": 1140,
+  "y": 1380,
   "wires": []
 }
 

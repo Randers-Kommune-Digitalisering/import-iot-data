@@ -1,18 +1,18 @@
 const Node = {
-  "id": "5468111c8102dba1",
+  "id": "09b92b3224e5d8f9",
   "type": "debug",
   "z": "7d89c5933c6ac70c",
-  "name": "new request",
+  "name": "stdout",
   "active": true,
   "tosidebar": true,
-  "console": false,
+  "console": true,
   "tostatus": false,
-  "complete": "payload",
-  "targetType": "msg",
+  "complete": "{ \"error\": \"No data key(s) found\" }",
+  "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 410,
-  "y": 220,
+  "x": 940,
+  "y": 260,
   "wires": []
 }
 

@@ -7,8 +7,8 @@ const Node = {
   "headers": {
     "content-type": "text/plain"
   },
-  "x": 1170,
-  "y": 180,
+  "x": 1110,
+  "y": 160,
   "wires": []
 }
 
